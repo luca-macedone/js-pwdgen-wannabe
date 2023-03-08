@@ -9,6 +9,21 @@
     <body>
         <div class="card">
             <h1>Password Generator</h1>
+            <form>
+                <div class="input">
+                    <label for="user-name">Your name:</label>
+                    <input type="text" id="user-name">
+                </div>
+                <div class="input">
+                    <label for="user-surname">Your surname:</label>
+                    <input type="text" id="user-surname">
+                </div>
+                <div class="input">
+                    <label for="user-color">Your favorite color:</label>
+                    <input type="text" id="user-color">
+                </div>
+                <input type="submit" value="Generate" id="submit-btn">
+            </form>
             <p> Our password suggestion is: <br>
                 <span id="suggested-password"></span>
             </p>

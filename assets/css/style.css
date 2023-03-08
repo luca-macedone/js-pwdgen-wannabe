@@ -37,6 +37,15 @@ body {
 .card p {
     font-style: italic;
     text-align: center;
+    padding: 1rem;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
 }
 
 #suggested-password {
